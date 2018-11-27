@@ -1,0 +1,32 @@
+{
+  "name": "context-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewdormi/context-example.git"
+  },
+  "author": "dormi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewdormi/context-example/issues"
+  },
+  "homepage": "https://github.com/andrewdormi/context-example#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}

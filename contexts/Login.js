@@ -15,11 +15,11 @@ class LoginProvider extends Component {
     }
 
     async login({login, password}) {
-        if (login !== 'JonShow' || password !== 'LoveDaenerys') {
+        if (login !== 'JonSnow' || password !== 'LoveDaenerys') {
             this.setState({loginErrors: ['Good try']});
             return;
         }
-        this.props.setUser({name: 'Jon Show', role: 'Bastard'});
+        this.props.setUser({name: 'Jon Snow', role: 'Bastard'});
     }
 
     render() {
